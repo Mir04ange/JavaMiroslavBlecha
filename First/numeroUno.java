@@ -7,7 +7,22 @@ public class numeroUno {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Vítej v naší hře, hra spočívá o tom že musíš uniknout ze hry");
-        System.out.println("Jdeš do toho, na nic se tě víc neptám xd");
+        
+
+        System.out.println("Jsi si vědom že chces s nami hrat: ano/ne");
+        String odpoved = scanner.nextLine().toLowerCase();
+        if (odpoved.equals("ano")) {
+            System.out.println("ja si to myslel ");
+        } else {
+            System.out.println("Tak proč jsi to spustil");
+            return; // Konec hry
+        }
+
+
+
+
+
+
 
         int hodnota = 0;
 
@@ -66,7 +81,7 @@ public class numeroUno {
             }
         }
 
-        System.out.println("Gratuluji! Utekl jsi ze hry!");
+        System.out.println("díky za dohraní važím si toho muzes si to klidne zahrat znovu ale varuju cim déle to budes hrat tim vic budu happy");
         scanner.close();
         
     }
