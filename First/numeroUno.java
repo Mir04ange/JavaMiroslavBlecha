@@ -47,9 +47,21 @@ public class numeroUno {
                 System.out.println("Jsi v místnosti číslo " + hodnota);
             } else {
                 System.out.println("Špatně! Zůstal jsi v místnosti.");
-                if (hodnota == 2) {
-                    hodnota = 0;
-                    System.out.println("Měl jsi 2 body, ale špatný výběr → skóre resetováno na 0!");
+                if (hodnota < 0) {
+                    
+                    if (hodnota <1) {
+                        System.out.println("Byl jsi u konce nevadi");
+                        
+                    }
+                    else{
+                        System.out.println("Nějak ti to nejde zkousej to dal spat nepujdes dokud to nedodelas");
+                    }
+                    
+                    
+                    
+                    
+                    
+                        hodnota = 0;
                 }
             }
         }
