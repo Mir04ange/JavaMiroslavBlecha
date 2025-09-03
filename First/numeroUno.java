@@ -55,5 +55,7 @@ public class numeroUno {
         }
 
         System.out.println("Gratuluji! Utekl jsi ze hry!");
+        scanner.close();
+        
     }
 }
