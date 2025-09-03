@@ -33,6 +33,21 @@ public class numeroUno {
 
             // Dokud nezada čislo mezi 1-2 tak to bude opakovat
             while (!validInput) {
+                if(hodnota == 2){
+                    System.out.println("Už jsi skoro na konci jedna mistnost ");
+                    System.out.println("Pokud vybereš špatně tak začínáš od začátku");
+                }                
+                if (hodnota == 1) {
+                    System.out.println("Jsi v místnosti číslo 1");
+                    System.out.println("Máš před sebou dvě cesty");
+                    System.out.println("Jedna vede vlevo a druhá vpravo");
+                }
+
+
+
+
+
+
                 System.out.println("Budeš vybírat mezi 1 a 2. (1 = vlevo, 2 = vpravo)");
 
                 if (scanner.hasNextInt()) {
